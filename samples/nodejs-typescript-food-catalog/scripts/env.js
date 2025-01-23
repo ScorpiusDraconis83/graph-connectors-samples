@@ -7,19 +7,19 @@ const envPath = path.join(__dirname, "..", "env");
 const envs = [
   {
     name: ".env.local",
-    content: `TEAMSFX_ENV=local\nAPP_NAME=Foodsie\nTUNNEL_ID=\nNOTIFICATION_ENDPOINT=\nNOTIFICATION_DOMAIN=`,
+    content: `TEAMSFX_ENV=local\nAPP_NAME=Foodsie\nTUNNEL_ID=\nNOTIFICATION_ENDPOINT=\nNOTIFICATION_DOMAIN=\n`,
   },
   {
     name: ".env.local.user",
-    content: `SECRET_AAD_APP_CLIENT_SECRET=`,
+    content: `SECRET_ENTRA_APP_CLIENT_SECRET=`,
   },
   {
     name: ".env.dev",
-    content: `TEAMSFX_ENV=dev\nAPP_NAME=Foodsie\nTUNNEL_ID=\nNOTIFICATION_ENDPOINT=\nNOTIFICATION_DOMAIN=`,
+    content: `TEAMSFX_ENV=dev\nAPP_NAME=Foodsie\nRESOURCE_SUFFIX=`,
   },
   {
     name: ".env.dev.user",
-    content: `SECRET_AAD_APP_CLIENT_SECRET=`,
+    content: `SECRET_ENTRA_APP_CLIENT_SECRET=`,
   },
 ];
 
